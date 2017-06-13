@@ -1,4 +1,4 @@
-##House of Carlos
+# House of Carlos
 
 Site dedicado ao acampamento de inverno para ICPC do IME-USP.
 
