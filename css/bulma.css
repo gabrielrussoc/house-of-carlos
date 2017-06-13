@@ -1,3 +1,6 @@
+---
+---
+
 /*! bulma.io v0.4.2 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
@@ -3242,6 +3245,12 @@ input[type="submit"].button {
   position: relative;
 }
 
+#header-carlos {
+  background-image: url('{{ site.baseurl }}/images/border-carlos.png');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
 @media screen and (min-width: 1000px) {
   .container {
     margin: 0 auto;
@@ -3253,6 +3262,13 @@ input[type="submit"].button {
     max-width: none;
     width: auto;
   }
+
+  #header-carlos img {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1192px) {
@@ -3260,12 +3276,26 @@ input[type="submit"].button {
     max-width: 1152px;
     width: 1152px;
   }
+
+  #header-carlos img {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1384px) {
   .container {
     max-width: 1344px;
     width: 1344px;
+  }
+
+  #header-carlos img {
+    max-width: 1344px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 
@@ -6215,8 +6245,6 @@ label.panel-block:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
 .hero .nav {
   background: none;
   box-shadow: 0 1px 0 rgba(219, 219, 219, 0.3);
