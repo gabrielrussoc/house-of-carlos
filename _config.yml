@@ -9,8 +9,7 @@
 title: MaratonIME Winter School
 email: maratona@ime.usp.br
 description: USP 2017 ICPC Winter School.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.ime.usp.br/~maratona" # the base hostname & protocol for your site
+baseurl: "/~maratona/winter17" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
