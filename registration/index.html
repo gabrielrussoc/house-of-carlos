@@ -15,3 +15,20 @@ If you have a team, all member must register individually.
 <p>
 We will <strong>not</strong> provide any kind of food, housing or transportation.
 </p>
+
+<h2 class="title is-2">Registered students</h2>
+
+<table class="table">
+    <thead>
+        <th>Name</th>
+        <th>School</th>
+    </thead>
+    <tbody>
+        {% for student in site.data.students %}
+        <tr>
+            <td>{{ student.name }}</td>
+            <td>{{ student.school }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
